@@ -1,0 +1,42 @@
+{
+  "name": "@stage-and-screen/batch-updater",
+  "version": "1.0.0",
+  "description": "Stage and Screen Membership Management",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint '*.{js,ts,tsx}' '*/**/*.{js,ts,tsx}' --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbrading/stage-and-screen-membership.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattbrading/stage-and-screen-membership/issues"
+  },
+  "homepage": "https://github.com/mattbrading/stage-and-screen-membership#readme",
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/node": "^14.14.6",
+    "@types/yargs": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "gocardless-nodejs": "^1.4.1",
+    "yargs": "^16.2.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  }
+}
